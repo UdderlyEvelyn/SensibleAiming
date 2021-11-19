@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Sensible Aiming</name>
+  <author>Evelyn</author>
+  <supportedVersions>
+    <li>1.3</li>
+  </supportedVersions>
+  <packageId>UdderlyEvelyn.SensibleAiming</packageId>
+  <description>
+  In Rimworld, pawns seem to miss entirely too often with ranged weapons. This is because it's all dice rolls - often not taking shooting skills into account even. This mod aims to fix it in a lightweight and close-to-vanilla way by simply involving the shooting skill in those dice rolls to tighten the aiming up more and even things up between ranged and melee combat.
+  </description>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld</li>
+  </loadAfter>
+  <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+</ModMetaData>
