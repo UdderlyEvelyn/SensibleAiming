@@ -7,7 +7,11 @@
   </supportedVersions>
   <packageId>UdderlyEvelyn.SensibleAiming</packageId>
   <description>
-  In Rimworld, pawns seem to miss entirely too often with ranged weapons. This is because it's all dice rolls - often not taking shooting skills into account even. This mod aims to fix it in a lightweight and close-to-vanilla way by simply involving the shooting skill in those dice rolls to tighten the aiming up more and even things up between ranged and melee combat.
+ In Rimworld, pawns seem to miss entirely too often with ranged weapons, even with high shooting skills. If you agree, but don't want to overhaul how combat works, then maybe this mod is for you!
+  
+ This mod makes one change to how one value is calculated, should be compatible with virtually everything besides combat overhaul mods (but who knows, might work with them too, I wouldn't recommend it though).
+  
+ On a technical level, this is a Harmony Postfix to ShotReport.AimOnTargetChance_IgnoringPosture to double the result. This seemed to have the desired action in tweaking combat hit chances the way and amount I wanted after tinkering with this and other variables and testing some things.
   </description>
   <loadAfter>
     <li>brrainz.harmony</li>
