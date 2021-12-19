@@ -16,7 +16,6 @@ namespace SA
         {
             var harmony = new Harmony("UdderlyEvelyn.SensibleAiming");
             harmony.PatchAll();
-            //Log.Warning("Here is a series of 10 Rand.Value returns: " + Rand.Value + ", " + Rand.Value + ", " + Rand.Value + ", " + Rand.Value + ", " + Rand.Value + Rand.Value + ", " + Rand.Value + ", " + Rand.Value + ", " + Rand.Value + ", " + Rand.Value);
         }
     }
 }
